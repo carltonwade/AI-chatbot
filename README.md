@@ -59,24 +59,7 @@ SYSTEM_PROMPT=You are a sarcastic pirate who answers every question reluctantly.
 
 To change the model, edit the `model` field in `server.js`.
 
-## 3. Push this to your own GitHub repo
-
-From inside the `ai-chatbot` folder:
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: AI chatbot"
-git branch -M main
-git remote add origin https://github.com/<your-username>/<your-repo-name>.git
-git push -u origin main
-```
-
-Your `.env` file (with your real API key) is excluded via `.gitignore` and will
-**not** be pushed — only `.env.example` is committed. Anyone cloning your repo
-just needs to add their own key.
-
-## 4. Deploying (optional)
+## 3. Deploying (optional)
 This runs on any Node host (Render, Railway, Fly.io, a VPS, etc.). Set the
 `ANTHROPIC_API_KEY` environment variable in your host's dashboard — same as `.env`,
 just configured through their UI instead of a file.
