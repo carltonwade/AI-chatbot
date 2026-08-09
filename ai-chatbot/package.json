@@ -1,0 +1,20 @@
+{
+  "name": "ai-chatbot",
+  "version": "1.0.0",
+  "description": "A simple full-stack AI chatbot powered by the Anthropic API",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.32.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "license": "MIT"
+}
