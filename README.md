@@ -59,10 +59,5 @@ SYSTEM_PROMPT=You are a sarcastic pirate who answers every question reluctantly.
 
 To change the model, edit the `model` field in `server.js`.
 
-## 3. Deploying (optional)
-This runs on any Node host (Render, Railway, Fly.io, a VPS, etc.). Set the
-`ANTHROPIC_API_KEY` environment variable in your host's dashboard — same as `.env`,
-just configured through their UI instead of a file.
-
 ## License
 MIT 
